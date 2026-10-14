@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "teensy") (type "KiCad") (uri "/Users/andrsilv/Projects/mniak/instrumento/kicad/teensy_library/teensy.kicad_sym") (options "") (descr ""))
+	(lib (name "teensy_audio_shield") (type "Legacy") (uri "/Users/andrsilv/Projects/mniak/instrumento/kicad/pjrc_REVD_Audio_Adaptor/teensy4.0_audioshield_revd.lib") (options "") (descr ""))
+)
