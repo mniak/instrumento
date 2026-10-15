@@ -430,15 +430,24 @@
         "filename": "instrumento.kicad_sch",
         "name": "instrumento",
         "uuid": "7badb4e4-eed3-457a-a043-e5ce7a94b62c"
+      },
+      {
+        "filename": "power.kicad_sch",
+        "name": "power",
+        "uuid": "46a8c23e-d3b6-4b53-b5c8-5a6fb9916a3c"
       }
     ],
-    "used_designators": "Dual_Channel_DRV1,U1-3",
+    "used_designators": "#PWR1-4,B1-2,BMS_2S1,BT1-3,Dual_Channel_DRV1,SD1,U1-3",
     "variants": []
   },
   "sheets": [
     [
       "7badb4e4-eed3-457a-a043-e5ce7a94b62c",
       "instrumento"
+    ],
+    [
+      "46a8c23e-d3b6-4b53-b5c8-5a6fb9916a3c",
+      "power"
     ]
   ],
   "text_variables": {},

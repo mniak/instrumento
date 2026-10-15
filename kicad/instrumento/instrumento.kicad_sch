@@ -5,14 +5,180 @@
 	(uuid "7badb4e4-eed3-457a-a043-e5ce7a94b62c")
 	(paper "A4")
 	(lib_symbols
+		(symbol "parts:20_Symmetric_Boost"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "B"
+				(at 5.08 4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "20_Symmetric_Boost_0_1"
+				(rectangle
+					(start 0 2.54)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "20_Symmetric_Boost_1_1"
+				(pin power_in line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "parts:Dual_Channel_DRV134"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Dual_Channel_DRV134"
-				(at 8.89 19.304 0)
+			(property "Reference" "D"
+				(at 8.89 19.812 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2570,99 +2736,105 @@
 			(embedded_fonts no)
 		)
 	)
-	(wire
-		(pts
-			(xy 162.56 81.28) (xy 179.07 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05aa767c-5a87-4f21-a54e-e18fdd5a72d1")
+	(junction
+		(at 209.55 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0a5cb17-b3b7-4c3f-a718-1fbb2da51efe")
 	)
 	(wire
 		(pts
-			(xy 179.07 81.28) (xy 179.07 52.07)
+			(xy 209.55 26.67) (xy 210.82 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06da36c9-7142-4971-b35e-3be7534642ae")
+		(uuid "0b18d704-27ad-4156-82e7-b5e6a04ffce9")
 	)
 	(wire
 		(pts
-			(xy 162.56 83.82) (xy 181.61 83.82)
+			(xy 207.01 53.34) (xy 219.71 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d5ba2ce-3ea2-4508-a84d-9725f2332c05")
+		(uuid "2939cd68-056f-473d-9be5-c52d83a68733")
 	)
 	(wire
 		(pts
-			(xy 162.56 78.74) (xy 176.53 78.74)
+			(xy 209.55 50.8) (xy 219.71 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1382dc71-8f6b-490c-b0f1-ddb591f7b481")
+		(uuid "55a4d554-ac5d-4f36-a4a9-faf45adc7465")
 	)
 	(wire
 		(pts
-			(xy 181.61 54.61) (xy 189.23 54.61)
+			(xy 212.09 24.13) (xy 207.01 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e8f18dc-daae-4011-b5a6-6db1281c7db1")
+		(uuid "757bd1c1-4d22-487e-b181-7f8efc39b582")
 	)
 	(wire
 		(pts
-			(xy 181.61 83.82) (xy 181.61 54.61)
+			(xy 212.09 48.26) (xy 212.09 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53c30dfb-da75-4124-8415-e676297565c4")
+		(uuid "757f5258-228e-4f03-9ab7-4ee51e5627ae")
 	)
 	(wire
 		(pts
-			(xy 176.53 78.74) (xy 176.53 49.53)
+			(xy 209.55 26.67) (xy 209.55 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5bebc9bd-d6ae-4c77-956e-06681bffe102")
+		(uuid "9ca23510-ceaa-492b-9f81-ff50bc499836")
 	)
 	(wire
 		(pts
-			(xy 176.53 49.53) (xy 189.23 49.53)
+			(xy 207.01 31.75) (xy 207.01 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8790161-b212-4e49-9ca5-61dc92b4efae")
+		(uuid "aa4d4013-d3dc-4110-9d7d-54ae988f8d9c")
 	)
 	(wire
 		(pts
-			(xy 179.07 52.07) (xy 189.23 52.07)
+			(xy 207.01 26.67) (xy 209.55 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "add5900a-7fb8-402d-83cc-07dfb4b2ffb8")
+		(uuid "ddddfec1-8df3-4ba5-9b55-aa8684434b94")
+	)
+	(wire
+		(pts
+			(xy 219.71 48.26) (xy 212.09 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f25388ee-7964-4a97-a6a4-29391bf56f41")
 	)
 	(symbol
 		(lib_id "teensy:Teensy4.1")
-		(at 59.69 96.52 0)
+		(at 54.61 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2673,7 +2845,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f66bc71-0bc5-4475-9523-c3cc31f814cf")
 		(property "Reference" "U1"
-			(at 59.69 30.48 0)
+			(at 54.61 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2683,7 +2855,7 @@
 			)
 		)
 		(property "Value" "Teensy4.1"
-			(at 59.69 33.02 0)
+			(at 54.61 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2693,7 +2865,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 86.36 0)
+			(at 44.45 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2704,7 +2876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 86.36 0)
+			(at 44.45 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2715,7 +2887,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 96.52 0)
+			(at 54.61 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2936,8 +3108,8 @@
 		)
 	)
 	(symbol
-		(lib_id "parts:Dual_Channel_DRV134")
-		(at 191.77 54.61 0)
+		(lib_id "parts:20_Symmetric_Boost")
+		(at 194.31 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2946,9 +3118,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b7d576a8-9e5e-4041-bc42-bd17fb828f9e")
-		(property "Reference" "Dual_Channel_DRV1"
-			(at 200.66 34.29 0)
+		(uuid "af766a2b-5137-4d80-bc90-c4527446b3f4")
+		(property "Reference" "B1"
+			(at 199.39 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2958,7 +3130,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 191.77 54.61 0)
+			(at 194.31 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2968,7 +3140,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 54.61 0)
+			(at 194.31 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2979,7 +3151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 54.61 0)
+			(at 194.31 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2990,7 +3162,96 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 54.61 0)
+			(at 194.31 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "8e747443-aef2-416b-994d-f46707221738")
+		)
+		(pin ""
+			(uuid "c4e0c009-0928-4888-b881-8436415f013c")
+		)
+		(pin ""
+			(uuid "d912d439-de36-4a72-a506-f112e461d152")
+		)
+		(pin ""
+			(uuid "aa7a19de-0e41-4a57-8ddd-95ec7f885b59")
+		)
+		(pin ""
+			(uuid "4447c759-a77d-4670-b74f-a9257bdee6ef")
+		)
+		(instances
+			(project "instrumento"
+				(path "/7badb4e4-eed3-457a-a043-e5ce7a94b62c"
+					(reference "B1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "parts:Dual_Channel_DRV134")
+		(at 222.25 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7d576a8-9e5e-4041-bc42-bd17fb828f9e")
+		(property "Reference" "D1"
+			(at 231.14 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 222.25 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3033,7 +3294,7 @@
 		(instances
 			(project "instrumento"
 				(path "/7badb4e4-eed3-457a-a043-e5ce7a94b62c"
-					(reference "Dual_Channel_DRV1")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -3041,7 +3302,7 @@
 	)
 	(symbol
 		(lib_id "teensy_audio_shield:Teensy4.0_AudioShield_REVD")
-		(at 134.62 73.66 0)
+		(at 137.16 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3052,7 +3313,7 @@
 		(fields_autoplaced yes)
 		(uuid "d464b49d-f221-46c9-8e06-a5bde03e5c86")
 		(property "Reference" "U2"
-			(at 134.62 31.75 0)
+			(at 137.16 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3062,7 +3323,7 @@
 			)
 		)
 		(property "Value" "Teensy4.0_AudioShield_REVD"
-			(at 134.62 34.29 0)
+			(at 137.16 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3072,7 +3333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 68.58 0)
+			(at 127 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3083,7 +3344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 68.58 0)
+			(at 127 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3094,7 +3355,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 73.66 0)
+			(at 137.16 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
