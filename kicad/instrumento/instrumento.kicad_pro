@@ -437,7 +437,7 @@
         "uuid": "46a8c23e-d3b6-4b53-b5c8-5a6fb9916a3c"
       }
     ],
-    "used_designators": "#PWR1-4,B1-2,BMS_2S1,BT1-3,Dual_Channel_DRV1,SD1,U1-3",
+    "used_designators": "#PWR1-17,B1-2,BMS_2S1,BT1-3,Dual_Channel_DRV1,J1-2,SD1,U1-3",
     "variants": []
   },
   "sheets": [
