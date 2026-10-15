@@ -254,7 +254,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "parts"
+    ]
   },
   "meta": {
     "filename": "instrumento.kicad_pro",
@@ -430,7 +432,7 @@
         "uuid": "7badb4e4-eed3-457a-a043-e5ce7a94b62c"
       }
     ],
-    "used_designators": "U1-3",
+    "used_designators": "Dual_Channel_DRV1,U1-3",
     "variants": []
   },
   "sheets": [

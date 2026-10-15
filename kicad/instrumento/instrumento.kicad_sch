@@ -5,6 +5,262 @@
 	(uuid "7badb4e4-eed3-457a-a043-e5ce7a94b62c")
 	(paper "A4")
 	(lib_symbols
+		(symbol "parts:Dual_Channel_DRV134"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Dual_Channel_DRV134"
+				(at 8.89 19.304 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Dual_Channel_DRV134_0_1"
+				(rectangle
+					(start 0 17.78)
+					(end 17.78 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Dual_Channel_DRV134_1_1"
+				(pin power_in line
+					(at -2.54 15.24 0)
+					(length 2.54)
+					(name "+V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -2.54 12.7 0)
+					(length 2.54)
+					(name "-V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 10.16 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 5.08 0)
+					(length 2.54)
+					(name "IN_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "IN_R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 15.24 180)
+					(length 2.54)
+					(name "OUT_L+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 12.7 180)
+					(length 2.54)
+					(name "OUT_L-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 7.62 180)
+					(length 2.54)
+					(name "OUT_R+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 5.08 180)
+					(length 2.54)
+					(name "OUT_R-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "teensy:Teensy4.1"
 			(pin_names
 				(offset 1.016)
@@ -2314,6 +2570,96 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 162.56 81.28) (xy 179.07 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05aa767c-5a87-4f21-a54e-e18fdd5a72d1")
+	)
+	(wire
+		(pts
+			(xy 179.07 81.28) (xy 179.07 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06da36c9-7142-4971-b35e-3be7534642ae")
+	)
+	(wire
+		(pts
+			(xy 162.56 83.82) (xy 181.61 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d5ba2ce-3ea2-4508-a84d-9725f2332c05")
+	)
+	(wire
+		(pts
+			(xy 162.56 78.74) (xy 176.53 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1382dc71-8f6b-490c-b0f1-ddb591f7b481")
+	)
+	(wire
+		(pts
+			(xy 181.61 54.61) (xy 189.23 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e8f18dc-daae-4011-b5a6-6db1281c7db1")
+	)
+	(wire
+		(pts
+			(xy 181.61 83.82) (xy 181.61 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53c30dfb-da75-4124-8415-e676297565c4")
+	)
+	(wire
+		(pts
+			(xy 176.53 78.74) (xy 176.53 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bebc9bd-d6ae-4c77-956e-06681bffe102")
+	)
+	(wire
+		(pts
+			(xy 176.53 49.53) (xy 189.23 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8790161-b212-4e49-9ca5-61dc92b4efae")
+	)
+	(wire
+		(pts
+			(xy 179.07 52.07) (xy 189.23 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "add5900a-7fb8-402d-83cc-07dfb4b2ffb8")
+	)
 	(symbol
 		(lib_id "teensy:Teensy4.1")
 		(at 59.69 96.52 0)
@@ -2584,6 +2930,110 @@
 			(project "instrumento"
 				(path "/7badb4e4-eed3-457a-a043-e5ce7a94b62c"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "parts:Dual_Channel_DRV134")
+		(at 191.77 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7d576a8-9e5e-4041-bc42-bd17fb828f9e")
+		(property "Reference" "Dual_Channel_DRV1"
+			(at 200.66 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 191.77 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "2880e457-c7aa-475e-bf07-0605a53fdcec")
+		)
+		(pin ""
+			(uuid "1b9a3b6e-860e-439c-8b9d-d09817e1987b")
+		)
+		(pin ""
+			(uuid "ead8cb4a-b0fe-4d05-8023-b8191e0c7ca1")
+		)
+		(pin ""
+			(uuid "50568367-eff3-40f8-8205-08a267295ce0")
+		)
+		(pin ""
+			(uuid "f070ecc1-cafc-4929-919e-6ba0c34914cb")
+		)
+		(pin ""
+			(uuid "6ace8710-5b43-4ed5-a7d0-889bce75e124")
+		)
+		(pin ""
+			(uuid "5c5a99bd-b4ca-4c72-b17a-db9feeb0a42a")
+		)
+		(pin ""
+			(uuid "cb070791-90f5-4a43-98aa-c59f7be37afb")
+		)
+		(pin ""
+			(uuid "b49e6a0e-6f3e-429a-b148-0cdd786cce65")
+		)
+		(pin ""
+			(uuid "c91742cd-8ae3-4010-88ec-970f3d5a55f3")
+		)
+		(instances
+			(project "instrumento"
+				(path "/7badb4e4-eed3-457a-a043-e5ce7a94b62c"
+					(reference "Dual_Channel_DRV1")
 					(unit 1)
 				)
 			)
